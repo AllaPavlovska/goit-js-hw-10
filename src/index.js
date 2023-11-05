@@ -37,7 +37,7 @@ function showLoader() {
 }
 
 function showError(message) {
-  Notiflix.Notify.Failure(message || 'Oops! Something went wrong. Try reloading the page.');
+  Notiflix.Notify.failure('Oops! Something went wrong. Try reloading the page.');
   hideLoader();
 }
 
